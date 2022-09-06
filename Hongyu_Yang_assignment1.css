@@ -1,0 +1,61 @@
+body {
+  margin-left: 30px;
+}
+
+.outer {
+  height: 125px;
+  width: 750px;
+  border: 1px solid black;
+}
+
+.row-container {
+  height: 25px;
+  width: 750px;
+  display: flex;
+  border-collapse: collapse;
+}
+
+.inner-grid {
+  height: 25px;
+  width: 150px;
+  border: 1px solid black;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+.inner-grid-address {
+  height: 25px;
+  width: 300px;
+  border: 1px solid black;
+  text-align: center;
+}
+
+table {
+  border-color: black;
+  border: 2px solid;
+  border-collapse: collapse;
+}
+
+th {
+  border-color: black;
+  border: 2px solid;
+  text-align: center;
+}
+
+td {
+  border-color: black;
+  border: 2px solid;
+  text-align: center;
+}
+
+#search {
+  font-size: larger;
+  margin-left: 30px;
+  border-radius: 2rem;
+  width: 300px;
+  border-color: grey;
+}
+
+#areas {
+  margin-left: 30px;
+}
